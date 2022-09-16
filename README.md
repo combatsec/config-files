@@ -1,5 +1,6 @@
 # config-files
 
+Installation:
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
@@ -17,3 +18,7 @@ sudo apt install rofi
 sudo apt install polybar
 
 sudo apt install kitty
+
+Links:
+https://github.com/dexpota/kitty-themes
+https://github.com/lr-tech/rofi-themes-collection
