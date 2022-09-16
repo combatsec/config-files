@@ -27,3 +27,10 @@ sudo apt install kitty
 Links:  
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
+
+Commands:  
+sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
+chsh --shell /bin/zsh {USER}  
+
+Paths:  
+/usr/local/share/fonts  
