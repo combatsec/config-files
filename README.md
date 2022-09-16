@@ -31,6 +31,7 @@ https://github.com/lr-tech/rofi-themes-collection
 Commands:  
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
 chsh --shell /bin/zsh {USER}  
+sudo update-alternatives --config java  
 
 Paths:  
 /usr/local/share/fonts  
