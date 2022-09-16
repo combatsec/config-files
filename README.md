@@ -1,7 +1,5 @@
 # config-files
 
-Installing bspwm & sxhkd:
-
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
