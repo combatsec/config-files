@@ -1,0 +1,109 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+background = #000000
+primary = #F0C674
+secondary = #8ABEB7
+alert = #A54242
+disabled = #707880
+red = #ff355b
+
+[bar/main]
+width = 100%
+height = 2.5%
+radius = 6
+
+line-size = 3
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 1
+
+module-margin = 1
+
+separator = |
+separator-foreground = ${colors.disabled}
+
+font-0 = "hacknerdfont:size=11;2"
+
+modules-left = workspaces eth vpn date target
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+; tray-position = right
+
+; wm-restack = generic
+; wm-restack = bspwm
+; wm-restack = i3
+
+; override-redirect = true
+
+[module/workspaces]
+type = internal/xworkspaces
+
+label-active = %name%
+label-active-foreground = ${colors.red}
+label-active-padding = 1
+
+label-occupied = %name%
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-padding = 1
+
+label-empty = %name%
+label-empty-foreground = ${colors.disabled}
+label-empty-padding = 1
+
+[module/eth]
+type = custom/script
+interval = 2
+exec = ~/.config/bin/eth.sh
+; click-left = echo -n "$(/usr/sbin/ifconfig ens33 | grep -m 1 "inet " | awk '{print $2}')" | xclip -sel clip &
+
+[module/vpn]
+type = custom/script
+interval = 2
+exec = ~/.config/bin/vpn.sh
+; click-left = echo -n "$(/usr/sbin/ifconfig tun0 | grep -m 1 "inet " | awk '{print $2}')" | xclip -sel clip &
+
+[module/target]
+type = custom/script
+interval = 2
+exec = ~/.config/bin/target.sh
+click-left = echo -n "$(cat ~/.config/bin/target)" | xclip -sel clip &
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = %H:%M:%S
+
+label = %date%
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+; vim:ft=dosini
