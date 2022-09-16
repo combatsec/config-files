@@ -1,6 +1,11 @@
 # config-files
 
+80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk
+
 Installation:
+sudo apt update
+sudo apt upgrade
+
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
