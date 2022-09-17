@@ -41,9 +41,9 @@ showkey -a
 
 Paths:  
 /usr/local/share/fonts  
-~/.config/bin/{polybar_module}.sh
-~/.config/kitty/kitty.conf
-~/.config/bspwm/scripts/bspwm_resize
+~/.config/bin/{polybar_module}.sh  
+~/.config/kitty/kitty.conf  
+~/.config/bspwm/scripts/bspwm_resize  
 
 Shortcuts:  
 Ctrl + U        (kill line)  
