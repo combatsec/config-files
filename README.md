@@ -38,9 +38,9 @@ Paths:
 /usr/local/share/fonts  
 
 Shortcuts:  
-Ctrl + U        # kill line  
-Ctrl + W        # kill word  
-Ctrl + A        # beginning of line  
-Ctrl + E        # end of line  
-Ctrl + =>       # forward 1 word  
-Ctrl + <=       # backward 1 word  
+Ctrl + U        (kill line)  
+Ctrl + W        (kill word)  
+Ctrl + A        (beginning of line)  
+Ctrl + E        (end of line)  
+Ctrl + =>       (forward 1 word)  
+Ctrl + <=       (backward 1 word)  
