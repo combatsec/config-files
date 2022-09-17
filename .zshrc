@@ -64,10 +64,8 @@ zstyle ':autocomplete:tab:*' widget-style menu-select
 zstyle ':autocomplete:*' min-input 2
 bindkey $key[Up] up-line-or-history
 bindkey $key[Down] down-line-or-history
-bindkey "^[q" beginning-of-line
-bindkey "^[e" end-of-line
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 
 ##################################################
