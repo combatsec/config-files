@@ -1,6 +1,6 @@
 # config-files
 
-Parrot-OS
+Parrot-OS  
 80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk  
 
 Installation:  
