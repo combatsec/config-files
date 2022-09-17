@@ -6,6 +6,8 @@ Installation:
 sudo apt update  
 sudo apt upgrade  
 
+sudo apt-get install libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-util0-dev libxcb-ewmh-dev libxcb-keysyms1-dev libxcb-shape0-dev  
+
 git clone https://github.com/baskerville/bspwm.git  
 git clone https://github.com/baskerville/sxhkd.git  
 cd bspwm && make && sudo make install  
