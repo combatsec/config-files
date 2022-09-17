@@ -24,6 +24,8 @@ sudo apt install polybar
 
 sudo apt install kitty  
 
+sudo apt install zsh  
+
 Links:  
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
