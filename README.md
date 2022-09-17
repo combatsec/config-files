@@ -32,6 +32,7 @@ Commands:
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
 chsh --shell /bin/zsh {USER}  
 sudo update-alternatives --config java  
+showkey -a  
 
 Paths:  
 /usr/local/share/fonts  
