@@ -40,7 +40,7 @@ Paths:
 Shortcuts:  
 Ctrl + U        Kill line  
 Ctrl + W        Kill word  
-Alt + E         End of line  
-Alt + Q         Beginning of line  
-Alt + =>        Forward 1 word  
-Alt + <=        Backward 1 word  
+Ctrl + A        Beginning of line  
+Ctrl + E        End of line  
+Ctrl + =>       Forward 1 word  
+Ctrl + <=       Backward 1 word  
