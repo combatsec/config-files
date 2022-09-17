@@ -36,3 +36,11 @@ showkey -a
 
 Paths:  
 /usr/local/share/fonts  
+
+Shortcuts:  
+Ctrl + U        Kill line  
+Ctrl + W        Kill word  
+Alt + E         End of line  
+Alt + Q         Beginning of line  
+Alt + =>        Forward 1 word  
+Alt + <=        Backward 1 word  
