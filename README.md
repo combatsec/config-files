@@ -52,7 +52,7 @@ showkey -a
 ~/.config/rofi/config  
 ~/.config/.zshrc  
 ~/.config/.vimrc  
-/usr/share/zsh-{module_name}/zsh-{module_name}  
+/usr/share/zsh-{module_name}/zsh-{module_name}.zsh  
 
 ### Shortcuts:  
 Ctrl + U ; Kill line  
