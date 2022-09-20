@@ -33,6 +33,8 @@ sudo apt install zsh-syntax-highlighting zsh-autosuggestions
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
 https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh  
+https://github.com/sharkdp/bat  
+https://github.com/Peltoche/lsd  
 
 ### Commands:  
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
