@@ -1,6 +1,6 @@
 # config-files
 
-Parrot-OS  
+## Parrot-OS  
 80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk  
 
 Installation:  
@@ -44,6 +44,13 @@ Paths:
 ~/.config/bin/{polybar_module}.sh  
 ~/.config/kitty/kitty.conf  
 ~/.config/bspwm/scripts/bspwm_resize  
+~/.config/bspwm/bspwmrc  
+~/.config/sxhkd/sxhkdrc  
+~/.config/polybar/config  
+~/.config/polybar/launch.sh  
+~/.config/rofi/config  
+~/.config/.zshrc  
+~/.config/.vimrc  
 
 Shortcuts:  
 Ctrl + U        (kill line)  
