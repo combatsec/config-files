@@ -63,7 +63,7 @@ super + {_,shift + }c
     bspc node -f {next,prev}.local
  
 # focus the next/previous desktop in the current monitor
-super + bracket{left,right}
+alt + {Left,Right}
     bspc desktop -f {prev,next}.local
  
 # focus the last node/desktop
@@ -119,7 +119,12 @@ super + ctrl + {Left,Down,Up,Right}
  
 # Custom move/resize
 alt + super + {Left,Down,Up,Right}
-    /home/combatsec/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+    ~/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
+# Open Firefox
 super + shift + f
     /opt/firefox/firefox
+
+# Open Burpsuite
+super + shift + b
+    ~/BurpSuiteCommunity/BurpSuiteCommunity
