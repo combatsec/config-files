@@ -1,7 +1,7 @@
-## Parrot-OS  
-## 80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk  
+### Parrot-OS  
+### 80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk  
 
-## Installation:  
+### Installation:  
 sudo apt update  
 sudo apt upgrade  
 
@@ -27,17 +27,17 @@ sudo apt install kitty
 
 sudo apt install zsh  
 
-## Links:  
+### Links:  
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
 
-## Commands:  
+### Commands:  
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
 chsh --shell /bin/zsh {USER}  
 sudo update-alternatives --config java  
 showkey -a  
 
-## Paths:  
+### Paths:  
 /usr/local/share/fonts  
 ~/.config/bin/{polybar_module}.sh  
 ~/.config/kitty/kitty.conf  
