@@ -27,9 +27,12 @@ sudo apt install kitty
 
 sudo apt install zsh  
 
+sudo apt install zsh-syntax-highlighting zsh-autosuggestions  
+
 ### Links:  
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
+https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh  
 
 ### Commands:  
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
@@ -49,6 +52,7 @@ showkey -a
 ~/.config/rofi/config  
 ~/.config/.zshrc  
 ~/.config/.vimrc  
+/usr/share/zsh-{module_name}/zsh-{module_name}  
 
 ### Shortcuts:  
 Ctrl + U ; Kill line  
