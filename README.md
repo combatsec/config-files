@@ -1,4 +1,4 @@
-### Parrot-OS  
+### Parrot-OS; 20-09-2022  
 ### 80 GB disk; 6 Cores/8; 6144 MB RAM; Bridged; Encrypted disk  
 
 ### Installation:  
