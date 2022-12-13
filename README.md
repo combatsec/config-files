@@ -29,6 +29,9 @@ sudo apt install zsh
 
 sudo apt install zsh-syntax-highlighting zsh-autosuggestions  
 
+add this line to bspwmrc to share clipboards between host and guest:
+vmware-user-suid-wrapper  
+
 ### Links:  
 https://github.com/dexpota/kitty-themes  
 https://github.com/lr-tech/rofi-themes-collection  
