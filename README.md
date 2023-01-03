@@ -38,6 +38,7 @@ https://github.com/lr-tech/rofi-themes-collection
 https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh  
 https://github.com/sharkdp/bat  
 https://github.com/Peltoche/lsd  
+https://github.com/gpakosz/.tmux  
 
 ### Commands:  
 sudo ln -s -f /home/{USER}/.zshrc /root/.zshrc  
